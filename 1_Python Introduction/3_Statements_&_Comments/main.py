@@ -1,7 +1,7 @@
 a = 1 + 2 + 3 + \
     4 + 5 + 6 + \
     7 + 8 + 9
-# (\) multiline sign
+# (\) multiline connection sign
 
 print(a)
 
@@ -34,3 +34,23 @@ colour = ('red',
           'green')
 
 print(colour)
+
+
+a = 1; b = 2; c = 3
+
+
+print(a, b, c)
+
+
+for i in range(1,11):
+    print(i)
+    if i == 5:
+        break
+
+
+
+
+for i in range(1,15):
+    print(i)
+    if i == 5:
+        continue;
